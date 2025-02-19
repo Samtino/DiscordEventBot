@@ -1,0 +1,36 @@
+{
+  "name": "discordeventbot",
+  "version": "1.0.0",
+  "description": "A self-hosted Discord bot for announcing Discord events.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node ."
+  },
+  "author": {
+    "name": "Samtino",
+    "email": "samtino00@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Samtino",
+      "email": "samtino00@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Samtino/DiscordEventBot"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
