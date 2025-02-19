@@ -25,7 +25,7 @@ Before installing the bot, make sure you have the following installed on your sy
 1. **Clone the Repository** (or download the ZIP)
 
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/Samtino/DiscordEventBot
    cd DiscordEventBot
    ```
 
