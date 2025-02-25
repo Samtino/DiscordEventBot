@@ -1,6 +1,6 @@
 {
   "name": "discordeventbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A self-hosted Discord bot for announcing Discord events.",
   "main": "dist/index.js",
   "scripts": {
