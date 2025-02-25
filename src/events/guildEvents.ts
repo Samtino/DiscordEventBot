@@ -64,7 +64,7 @@ const event: BotEvent = {
             },
             {
               name: '👥 Interested Users',
-              value: `${newEvent.userCount ?? 0} people marked as interested!`,
+              value: `${subscribers.size ?? 0} people marked as interested!`,
             }
           )
           .setURL(newEvent.url ?? '')
